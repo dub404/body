@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -277,75 +278,316 @@
         </div>
       </section>
 
-      <section class="person" style="background-image: url(images/person/person-bg.jpg);">
-        <div class="container">
-          <h2 class="person__title">
-            <span>Алена </span>
-            <span> Платон</span>
-          </h2>
-          <div class="person__inner">
-            <div class="person__content">
-              <ul class="person__list">
-                <li class="person__item">
-                  Чемпионка России по фитнес бикини
-                </li>
-                <li class="person__item">
-                  Выпускница высшей школы Бодибилдинга
-                  и фитнеса
-                </li>
-                <li class="person__item">
-                  Профессиональный тренер ФСО Кремля
-                </li>
-                <li class="person__item">
-                  Победитель многочисленных
-                  соревнований "Фитнес-бикини"
-                </li>
-                <li class="person__item">
-                  Спортивный наставник телевизионных
-                  проектов
-                </li>
-                <li class="person__item">
-                  Автор методики построения
-                  Идеального тела
-                </li>
-              </ul>
-              <div class="person__info">
-                <div class="person__info-content">
-                  <span class="person__info-num">
-                    400 000+
-                  </span>
-                  <div class="person__info-text">
-                    подписчиков
-                    в Instagram
+      <section class="person">
+        <div class="person__body" style="background-image: url(images/person/person-bg.jpg);">
+          <div class="container">
+            <h2 class="person__title">
+              <span>Алена </span>
+              <span> Платон</span>
+            </h2>
+            <div class="person__inner">
+              <div class="person__content">
+                <ul class="person__list">
+                  <li class="person__item">
+                    Чемпионка России по фитнес бикини
+                  </li>
+                  <li class="person__item">
+                    Выпускница высшей школы Бодибилдинга
+                    и фитнеса
+                  </li>
+                  <li class="person__item">
+                    Профессиональный тренер ФСО Кремля
+                  </li>
+                  <li class="person__item">
+                    Победитель многочисленных
+                    соревнований "Фитнес-бикини"
+                  </li>
+                  <li class="person__item">
+                    Спортивный наставник телевизионных
+                    проектов
+                  </li>
+                  <li class="person__item">
+                    Автор методики построения
+                    Идеального тела
+                  </li>
+                </ul>
+                <div class="person__info">
+                  <div class="person__info-content">
+                    <span class="person__info-num">
+                      400 000+
+                    </span>
+                    <div class="person__info-text">
+                      подписчиков
+                      в Instagram
+                    </div>
+                  </div>
+                  <div class="person__info-bottom">
+                    <a class="person__info-link" href="#">
+                      <span class="person__info-link--img">
+                        <img src="images/person/instagram.png" alt="instagram">
+                      </span>
+                      @alenaplatoon
+                    </a>
                   </div>
                 </div>
-                <div class="person__info-bottom">
-                  <a class="person__info-link" href="#">
-                    <span class="person__info-link--img">
-                      <img src="images/person/instagram.png" alt="instagram">
-                    </span>
-                    @alenaplatoon
-                  </a>
+                <div class="person__girl">
+                  <img src="images/person/person-alena.png" alt="Alena">
                 </div>
               </div>
-              <div class="person__girl">
-                <img src="images/person/person-alena.png" alt="Alena">
-              </div>
-            </div>
-            <div class="person__book-wrapper" style="background-image: url(images/person/author-bg.png);">
-              <div class="person__book-img">
-                <img src="images/person/book.png" alt="book">
-              </div>
-              <div class="person__book-content">
-                <div class="person__book-author">
-                  Автор книги
+              <div class="person__book-wrapper" style="background-image: url(images/person/author-bg.png);">
+                <div class="person__book-img">
+                  <img src="images/person/book.png" alt="book">
                 </div>
-                <h4 class="person__book-title">
-                  «Я хочу тебя!
-                  Идеальное тело»
-                </h4>
+                <div class="person__book-content">
+                  <div class="person__book-author">
+                    Автор книги
+                  </div>
+                  <h4 class="person__book-title">
+                    «Я хочу тебя!
+                    Идеальное тело»
+                  </h4>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="results" style="background-image: url(images/results/results-bg.png);">
+        <div class="container">
+          <div class="person__after">
+            <div class="person__after-img">
+              <img src="images/person/person-after-img.png">
+            </div>
+            <p class="person__after-top--text">
+              после мастер-класса у вас будет все необходимое
+            </p>
+            <h3 class="person__after-title">
+              чтобы привести свое тело в красивую форму
+            </h3>
+            <p class="person__after-text">
+              Поймете как важно сперва полюбить себя, как может измениться
+              не только ваше тело, но и ваш образ жизни
+            </p>
+            <a class="person__after-btn" href="#">
+              принять участие
+            </a>
+          </div>
+        </div>
+        <h2 class="results__title title">
+          Посмотрите результаты
+          <span>
+            наших учениц
+          </span>
+        </h2>
+        <div class="swiper results__slides">
+          <div class="swiper-wrapper results__slides-wrapper">
+            <div class="swiper-slide results__item">
+              <div class="results__item-img">
+                <img src="images/results/results-slide-1.jpg" alt="img">
+              </div>
+              <div class="results__item-content">
+                <ul class="results__item-data">
+                  <li class="results__item-date">
+                    3 ноября 2020:
+                  </li>
+                  <li class="results__item-weight">
+                    Вес 51,1
+                  </li>
+                  <li class="results__item-breast">
+                    Грудь 83
+                  </li>
+                  <li class="results__item-waist">
+                    Талия 64
+                  </li>
+                  <li class="results__item-hips">
+                    Бедра 91
+                  </li>
+                </ul>
+                <p class="results__item-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet tempore reprehenderit
+                  necessitatibus quam odit pariatur nulla ipsa optio distinctio officia, neque soluta dolores
+                  voluptatibus eum mollitia! Fugiat, ipsam repellat.
+                </p>
+                <p class="results__item-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet tempore reprehenderit
+                  necessitatibus quam odit pariatur nulla ipsa optio distinctio officia, neque soluta dolores
+                  voluptatibus eum mollitia! Fugiat, ipsam repellat.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet tempore reprehenderit
+                  necessitatibus quam odit pariatur nulla ipsa optio distinctio officia, neque soluta dolores
+                  voluptatibus eum mollitia! Fugiat, ipsam repellat.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide results__item">
+              <div class="results__item-img">
+                <img src="images/results/results-slide-1.jpg" alt="img">
+              </div>
+              <div class="results__item-content">
+                <ul class="results__item-data">
+                  <li class="results__item-date">
+                    3 ноября 2020:
+                  </li>
+                  <li class="results__item-weight">
+                    Вес 51,1
+                  </li>
+                  <li class="results__item-breast">
+                    Грудь 83
+                  </li>
+                  <li class="results__item-waist">
+                    Талия 64
+                  </li>
+                  <li class="results__item-hips">
+                    Бедра 91
+                  </li>
+                </ul>
+                <p class="results__item-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet tempore reprehenderit
+                  necessitatibus quam odit pariatur nulla ipsa optio distinctio officia, neque soluta dolores
+                  voluptatibus eum mollitia! Fugiat, ipsam repellat.
+                </p>
+                <p class="results__item-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet tempore reprehenderit
+                  necessitatibus quam odit pariatur nulla ipsa optio distinctio officia, neque soluta dolores
+                  voluptatibus eum mollitia! Fugiat, ipsam repellat.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet tempore reprehenderit
+                  necessitatibus quam odit pariatur nulla ipsa optio distinctio officia, neque soluta dolores
+                  voluptatibus eum mollitia! Fugiat, ipsam repellat.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide results__item">
+              <div class="results__item-img">
+                <img src="images/results/results-slide-1.jpg" alt="img">
+              </div>
+              <div class="results__item-content">
+                <ul class="results__item-data">
+                  <li class="results__item-date">
+                    3 ноября 2020:
+                  </li>
+                  <li class="results__item-weight">
+                    Вес 51,1
+                  </li>
+                  <li class="results__item-breast">
+                    Грудь 83
+                  </li>
+                  <li class="results__item-waist">
+                    Талия 64
+                  </li>
+                  <li class="results__item-hips">
+                    Бедра 91
+                  </li>
+                </ul>
+                <p class="results__item-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet tempore reprehenderit
+                  necessitatibus quam odit pariatur nulla ipsa optio distinctio officia, neque soluta dolores
+                  voluptatibus eum mollitia! Fugiat, ipsam repellat.
+                </p>
+                <p class="results__item-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet tempore reprehenderit
+                  necessitatibus quam odit pariatur nulla ipsa optio distinctio officia, neque soluta dolores
+                  voluptatibus eum mollitia! Fugiat, ipsam repellat.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet tempore reprehenderit
+                  necessitatibus quam odit pariatur nulla ipsa optio distinctio officia, neque soluta dolores
+                  voluptatibus eum mollitia! Fugiat, ipsam repellat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="results__slider-btn--next results__slider-btn">
+            <img src="images/results/arrow-next.png" alt="arrow next">
+          </div>
+          <div class="results__slider-btn--prev results__slider-btn">
+            <img src="images/results/arrow-prev.png" alt="arrow prev">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="questions">
+        <div class="container">
+          <h2 class="questions__title title">
+            часто задаваемые
+            <span>
+              вопросы
+            </span>
+          </h2>
+          <div class="questions__inner">
+            <ul class="questions__list">
+              <li class="questions__item">
+                <div class="questions__item-content">
+                  <div class="questions__item-title">
+                    Мне нужно будет сидеть на специальной диете?
+                  </div>
+                  <div class="questions__item-plus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <p class="questions__item-text">
+                  Обязательно проконсультируйтесь с врачом. Если нет противопоказаний, то можно начинать.
+                </p>
+              </li>
+              <li class="questions__item">
+                <div class="questions__item-content">
+                  <div class="questions__item-title">
+                    Я 2 месяца назад стала мамой, можно уже начинать заниматься?
+                  </div>
+                  <div class="questions__item-plus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <p class="questions__item-text">
+                  Обязательно проконсультируйтесь с врачом. Если нет противопоказаний, то можно начинать.
+                </p>
+              </li>
+              <li class="questions__item">
+                <div class="questions__item-content">
+                  <div class="questions__item-title">
+                    Сколько минут в день нужно будет уделять тренировкам?
+                  </div>
+                  <div class="questions__item-plus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <p class="questions__item-text">
+                  Обязательно проконсультируйтесь с врачом. Если нет противопоказаний, то можно начинать.
+                </p>
+              </li>
+              <li class="questions__item">
+                <div class="questions__item-content">
+                  <div class="questions__item-title">
+                    Какие группы мышц будут задействованы на тренировках?
+                  </div>
+                  <div class="questions__item-plus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <p class="questions__item-text">
+                  Обязательно проконсультируйтесь с врачом. Если нет противопоказаний, то можно начинать.
+                </p>
+              </li>
+              <li class="questions__item">
+                <div class="questions__item-content">
+                  <div class="questions__item-title">
+                    Мастер-класс будет доступен в записи?
+                  </div>
+                  <div class="questions__item-plus">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <p class="questions__item-text">
+                  Обязательно проконсультируйтесь с врачом. Если нет противопоказаний, то можно начинать.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="questions__img">
+            <img src="images/questions/questions-img.png" alt="image">
           </div>
         </div>
       </section>
@@ -357,8 +599,7 @@
     </footer>
   </div>
 
-
-
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script src="js/main.min.js"></script>
 </body>
 

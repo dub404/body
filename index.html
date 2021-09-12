@@ -15,17 +15,20 @@
 <body>
 
   <div class="wrapper">
+
     <header class="header" style="background-image: url(images/header/header-bg.jpg);">
       <div class="container">
-        <div class="header__start-info">
-          <div class="header__start-content">
-            <div class="header__start-num">
-              15
-            </div>
-            <div class="header__start-text">
-              сентября
-              <div class="header__start-location">
-                19:00 Мск/Киев
+        <div class="header__start-info--wrapper">
+          <div class="header__start-info">
+            <div class="header__start-content">
+              <div class="header__start-num">
+                15
+              </div>
+              <div class="header__start-text">
+                сентября
+                <div class="header__start-location">
+                  19:00 Мск/Киев
+                </div>
               </div>
             </div>
           </div>
@@ -44,6 +47,9 @@
             <h1 class="header__title">
               Идеального тела
             </h1>
+            <span class="header__title-info--num header__title-info--mobile">
+              в 3-х этапах
+            </span>
             <p class="header__text">
               Узнаете, как прокачать свое тело, стать свободной,
               <span>сказать жиру и целюлиту прощай</span>
@@ -81,7 +87,7 @@
           </h2>
           <div class="recognize-yourself__inner">
             <div class="recognize-yourself__list">
-              <div class="recognize-yourself__left">
+              <div class="recognize-yourself__left recognize-yourself__list-item">
                 <div class="recognize-yourself__item">
                   <p class="recognize-yourself__item-text">
                     Впахиваете на тренировках,
@@ -95,7 +101,7 @@
                   <p>и набираете вес обратно</p>
                 </div>
               </div>
-              <div class="recognize-yourself__right">
+              <div class="recognize-yourself__right recognize-yourself__list-item">
                 <div class="recognize-yourself__item">
                   <p class="recognize-yourself__item-text">
                     Пытались похудеть,
@@ -199,7 +205,7 @@
                       6 принципов здорового питания
                     </li>
                     <li class="master-class__list-item">
-                      Как качество еды влияет на вашу фигуры?
+                      Как качество еды влияет на вашу фигуру?
                     </li>
                     <li class="master-class__list-item">
                       Почему ваш вес стоит на месте?
@@ -282,10 +288,17 @@
         <div class="person__body" style="background-image: url(images/person/person-bg.jpg);">
           <div class="container">
             <h2 class="person__title">
-              <span>Алена </span>
-              <span> Платон</span>
+              <span>Алена</span>
+              <span>Платон</span>
+              <span class="person__title-mobile">Алена Платон</span>
             </h2>
+            <div class="person__girl person__girl-mobile">
+              <img src="images/person/person-alena.png" alt="Alena">
+            </div>
             <div class="person__inner">
+              <div class="person__girl">
+                <img src="images/person/person-alena.png" alt="Alena">
+              </div>
               <div class="person__content">
                 <ul class="person__list">
                   <li class="person__item">
@@ -313,9 +326,9 @@
                 </ul>
                 <div class="person__info">
                   <div class="person__info-content">
-                    <span class="person__info-num">
-                      400 000+
-                    </span>
+                    <div class="person__info-num">
+                      400 000<span>+</span>
+                    </div>
                     <div class="person__info-text">
                       подписчиков
                       в Instagram
@@ -329,9 +342,6 @@
                       @alenaplatoon
                     </a>
                   </div>
-                </div>
-                <div class="person__girl">
-                  <img src="images/person/person-alena.png" alt="Alena">
                 </div>
               </div>
               <div class="person__book-wrapper" style="background-image: url(images/person/author-bg.png);">
@@ -737,18 +747,18 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__inner">
-          <ul class="footer__data">
+          <ul class="footer__data footer__box">
             <li class="footer__data-item">
-              ©  Лапышева Елена
+              © Лапышева Елена
             </li>
             <li class="footer__data-item">
-              ИНН 781131963462 
+              ИНН 781131963462
             </li>
             <li class="footer__data-item">
               ОГРНИП 305784725000225
             </li>
           </ul>
-          <ul class="footer__socials">
+          <ul class="footer__socials footer__box">
             <li class="footer__socials-item">
               <a class="footer__socials-link" href="#">
                 <img src="images/footer/facebook.png" alt="facebook">
@@ -760,7 +770,7 @@
               </a>
             </li>
           </ul>
-          <ul class="footer__copy">
+          <ul class="footer__copy footer__box">
             <li class="footer__copy-item">
               <a class="footer__copy-link" href="#">
                 Политика конфиденциальности
